@@ -1,0 +1,14 @@
+@import url(/global.css);
+
+#form-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 50vw;
+    background-color: #fde3a7d7;
+}
+
+#form-image img {
+    width: 31rem;
+}
