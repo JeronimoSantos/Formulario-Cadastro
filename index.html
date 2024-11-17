@@ -7,6 +7,91 @@
     <title>Formulario Responsivo</title>
 </head>
 <body>
-    
+    <main id="container">
+        <!--PARTE VISUAL ONDE VAI FICAR A IMAGEM-->
+        <section id="form-image">
+            <img src="./src/img/undraw_working_remotely_re_6b3a.svg"/>
+        </section>
+
+        <!--PARTE DO CABEÇALHO DO FORMULÁRIO-->
+        <section id="form">
+            <form action="#">
+                <section id="form-header">
+                    <div id="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div id="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </section>
+
+        <!--ONDE FICARAM OS INPUTS DO FORMULÁRIO-->
+                <section id="input-group">
+                    <section class="input-box">
+                        <label for="firstname">Primeiro Nome:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu Primeiro Nome" required/>
+                    </section>
+
+                    <section class="input-box">
+                        <label for="lastname">Sobrenome:</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu Sobrenome" required/>
+                    </section>
+
+                    <section class="input-box">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu Email" required/>
+                    </section>
+
+                    <section class="input-box">
+                        <label for="number">Celular:</label>
+                        <input id="number" type="number" name="number" placeholder="(xx) xxxx-xxxx" required/>
+                    </section>
+
+                    <section class="input-box">
+                        <label for="password">Senha:</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua Senha" required/>
+                    </section>
+
+                    <section class="input-box">
+                        <label for="comfirmPassword">Comfirme sua Senha:</label>
+                        <input id="comfirmPassword" type="password" name="comfirmPassword" placeholder="Comfirme sua Senha" required/>
+                    </section>
+                </section>
+        <!--INPUTS DE GÊNEROS-->
+                <section id="gender-inputs">
+                    <section id="gender-title">
+                        <h3 id="gender">Gêneros</h3>
+                    </section>
+
+                    <section id="gender-group">
+                        <section class="gender-input">
+                            <input id="male" type="radio" name="gender">
+                            <label for="male">Masculino</label>
+                        </section>
+
+                        <section class="gender-input">
+                            <input id="famale" type="radio" name="gender">
+                            <label for="famale">Feminino</label>
+                        </section>
+
+                        <section class="gender-input">
+                            <input id="others" type="radio" name="gender">
+                            <label for="others">Outros</label>
+                        </section>
+
+                        <section class="gender-input">
+                            <input id="none" type="radio" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </section>
+                    </section>
+
+                </section>
+
+                <section id="container-button">
+                    <button><a href="#">Continuar</a></button>
+                </section>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
